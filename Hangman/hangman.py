@@ -1,5 +1,5 @@
 '''
-	Hangman, Fun and recreational game through which one can increase it's vocab and thinking abilities. 
+	Hangman, Fun and recreational game through which one can increase his vocab and thinking abilities. 
 
 	Requirements - python 3.6, and module RandomWords.
 	

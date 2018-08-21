@@ -1,8 +1,8 @@
 [cli]
 bears = SpaceConsistencyBear,PEP8Bear,PyUnusedCodeBear
-files = hangman.py
+files = hangman.py,setup.py,requirements.txt
 use_spaces = True
 default_actions = *: ApplyPatchAction
 [python]
 bears = PEP8Bear
-files = hangman.py
+files = hangman.py,setup.py

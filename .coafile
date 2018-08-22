@@ -1,8 +1,11 @@
-[cli]
-bears = SpaceConsistencyBear,PEP8Bear,PyUnusedCodeBear
+[global]
+bears = SpaceConsistencyBear,GitCommitBear
 files = hangman.py,setup.py,requirements.txt
 use_spaces = True
 default_actions = *: ApplyPatchAction
 [python]
-bears = PEP8Bear
+bears = PEP8Bear,PyUnusedCodeBear
 files = hangman.py,setup.py
+[rst]
+bears = RSTcheckBear
+files = *.rst
